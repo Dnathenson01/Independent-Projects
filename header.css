@@ -1,0 +1,28 @@
+/* Header Styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    width: 100%;
+}
+
+.branding {
+    text-align: center;
+    flex-grow: 1;
+}
+
+.branding h1, .branding h2 {
+    margin: 0;
+    padding-bottom: 0.5em;
+    font-size: 14px;
+}
+
+/* Profile and Logo Styles */
+.profile-pic, .school-logo {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    display: inline-block;
+}

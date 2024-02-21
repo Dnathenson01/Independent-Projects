@@ -91,3 +91,146 @@ header {
     }
 }
 
+.container {
+    position: relative;
+    /* Set a specific height and width if needed */
+}
+
+.skills-icons {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* Ensure this container is big enough to hold the circle of icons */
+}
+
+.skill-icon {
+    position: absolute;
+    /* Adjust width and height as necessary */
+    /* Use nth-child to individually position each icon around the circle */
+}
+
+/* Position the contact-info at the top right */
+.contact-info {
+    position: absolute;
+    top: 0;
+    right: 0;
+    /* Style as needed */
+}
+
+/* Add responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+    .skills-icons {
+        /* Adjust layout for a smaller screen */
+    }
+
+    .skill-icon {
+        /* Adjust layout for a smaller screen */
+    }
+
+    /* Other responsive styles */
+}
+
+.skill-icon {
+    position: absolute;
+    /* Adjust the radius as needed */
+    --radius: 100px; 
+    /* Center position (50% for center of the container) */
+    --center-x: 50%;
+    --center-y: 50%;
+}
+/* 12 o'clock position */
+.skill-icon:nth-child(1) {
+    --angle: 0deg;
+    top: calc(var(--center-y) - var(--radius) * (1 - sin(var(--angle))));
+    left: calc(var(--center-x) + var(--radius) * cos(var(--angle)));
+    transform: translate(-50%, -50%);
+}
+
+/* 1 o'clock position */
+.skill-icon:nth-child(2) {
+    --angle: 30deg;
+    top: calc(var(--center-y) - var(--radius) * (1 - sin(var(--angle))));
+    left: calc(var(--center-x) + var(--radius) * cos(var(--angle)));
+    transform: translate(-50%, -50%);
+}
+
+/* 2 o'clock position */
+.skill-icon:nth-child(3) {
+    --angle: 60deg;
+    top: calc(var(--center-y) - var(--radius) * (1 - sin(var(--angle))));
+    left: calc(var(--center-x) + var(--radius) * cos(var(--angle)));
+    transform: translate(-50%, -50%);
+}
+
+/* 3 o'clock position */
+.skill-icon:nth-child(4) {
+    --angle: 90deg;
+    top: calc(var(--center-y));
+    left: calc(var(--center-x) + var(--radius));
+    transform: translate(-50%, -50%);
+}
+
+/* 4 o'clock position */
+.skill-icon:nth-child(5) {
+    --angle: 120deg;
+    top: calc(var(--center-y) + var(--radius) * sin(var(--angle) - 90deg));
+    left: calc(var(--center-x) + var(--radius) * cos(var(--angle)));
+    transform: translate(-50%, -50%);
+}
+
+/* 5 o'clock position */
+.skill-icon:nth-child(6) {
+    --angle: 150deg;
+    top: calc(var(--center-y) + var(--radius) * sin(var(--angle) - 90deg));
+    left: calc(var(--center-x) + var(--radius) * cos(var(--angle)));
+    transform: translate(-50%, -50%);
+}
+
+/* 6 o'clock position */
+.skill-icon:nth-child(7) {
+    --angle: 180deg;
+    top: calc(var(--center-y) + var(--radius));
+    left: calc(var(--center-x));
+    transform: translate(-50%, -50%);
+}
+
+/* 7 o'clock position */
+.skill-icon:nth-child(8) {
+    --angle: 210deg;
+    top: calc(var(--center-y) + var(--radius) * sin(var(--angle) - 90deg));
+    left: calc(var(--center-x) - var(--radius) * cos(var(--angle)));
+    transform: translate(-50%, -50%);
+}
+
+/* 8 o'clock position */
+.skill-icon:nth-child(9) {
+    --angle: 240deg;
+    top: calc(var(--center-y) + var(--radius) * sin(var(--angle) - 90deg));
+    left: calc(var(--center-x) - var(--radius) * cos(var(--angle)));
+    transform: translate(-50%, -50%);
+}
+
+/* 9 o'clock position */
+.skill-icon:nth-child(10) {
+    --angle: 270deg;
+    top: calc(var(--center-y));
+    left: calc(var(--center-x) - var(--radius));
+    transform: translate(-50%, -50%);
+}
+
+/* 10 o'clock position */
+.skill-icon:nth-child(11) {
+    --angle: 300deg;
+    top: calc(var(--center-y) - var(--radius) * (1 - sin(var(--angle))));
+    left: calc(var(--center-x) - var(--radius) * cos(var(--angle)));
+    transform: translate(-50%, -50%);
+}
+
+/* 11 o'clock position */
+.skill-icon:nth-child(12) {
+    --angle: 330deg;
+    top: calc(var(--center-y) - var(--radius) * (1 - sin(var(--angle))));
+    left: calc(var(--center-x) - var(--radius) * cos(var(--angle)));
+    transform: translate(-50%, -50%);
+}
