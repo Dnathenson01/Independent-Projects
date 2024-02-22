@@ -25,4 +25,7 @@ header {
     width: 150px;
     border-radius: 50%;
     display: inline-block;
+    margin-top: 350px; /* Adjust this value to move the images down */
 }
+
+/* ... any other styles ... */

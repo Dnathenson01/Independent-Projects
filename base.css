@@ -3,15 +3,13 @@ body, html {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
 }
 
 /* Container Styles */
 .container {
-    position: relative;
+    width: 80%; /* Set a max-width if needed */
+    margin: 0 auto; /* Center the container */
+    padding-bottom: 50px; /* Add some space at the bottom */
 }
 
 /* Media Queries */
@@ -21,8 +19,8 @@ body, html {
         width: 100px;
     }
 
-    body, html {
-        align-items: flex-start;
+    .container {
+        width: 95%; /* Allow more space on smaller screens */
     }
 
     .contact-info {

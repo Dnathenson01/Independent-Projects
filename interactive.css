@@ -1,8 +1,8 @@
 /* Contact Information Styles */
 .contact-info {
     position: absolute;
-    top: -350px; /* Adjust to move contact info towards the top of the page */
-    right: 75px; /* Adjust to move contact info towards the right of the page */
+    top: 30px; /* Adjust to move contact info towards the top of the page */
+    right: 850px; /* Adjust to move contact info towards the right of the page */
     z-index: 10; /* Ensure it's above other elements */
 }
 
