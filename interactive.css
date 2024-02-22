@@ -34,15 +34,15 @@
 
 .skill-icon {
     position: absolute;
-    width: 60px; /* Set the width for your icons */
-    height: 60px; /* Set the height for your icons */
-    --radius: 275px; /* Set the radius of your circle */
+    width: 70px; /* Set the width for your icons */
+    height: 70px; /* Set the height for your icons */
+    --radius: 300px; /* Set the radius of your circle */
     --index: 0; /* Initial value for index, will be overwritten inline */
 }
 
 /* Skill Icon Positions */
 .skill-icon {
-    --angle: calc(var(--index) * 30deg);
+    --angle: calc(var(--index) * 25.7deg);
     top: calc(50% + var(--radius) * sin(var(--angle)) - 30px); /* Adjust the offset to center the icons */
     left: calc(50% + var(--radius) * cos(var(--angle)) - 30px); /* Adjust the offset to center the icons */
     transform: translate(-50%, -50%);
