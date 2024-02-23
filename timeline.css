@@ -1,0 +1,72 @@
+/* Common styles for timeline markers */
+.timeline-marker {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+/* Styles for school timeline markers */
+#school-timeline .timeline-marker[data-date="August 2020"] { top: 0%; }
+#school-timeline .timeline-marker[data-date="Current"] { bottom: 0%; }
+#school-timeline .timeline-marker[data-date="May 2023"] { top: 20%; }
+#school-timeline .timeline-marker[data-date="August 2023"] { top: 40%; }
+#school-timeline .timeline-marker[data-date="January 2024"] { top: 60%; }
+
+/* Styles for work timeline markers */
+#work-timeline .timeline-marker[data-date="August 2020"] { top: 0%; }
+#work-timeline .timeline-marker[data-date="Current"] { bottom: 0%; }
+#work-timeline .timeline-marker[data-date="January 2022"] { top: 10%; }
+#work-timeline .timeline-marker[data-date="April 2022"] { top: 30%; }
+#work-timeline .timeline-marker[data-date="May 2023"] { top: 50%; }
+#work-timeline .timeline-marker[data-date="August 2023"] { top: 70%; }
+
+/* Adjustments for the vertical line in the timeline */
+.timeline {
+    border-left: 2px solid black;
+    position: absolute;
+    height: 50%; /* Set height to 100% of the container */
+    width: 2px;
+    top: 0; /* Align the top of the timeline with the container */
+}
+
+#school-timeline {
+    left: 500px;
+    top: 1200px;
+     /* Adjust the left position for the school timeline */
+}
+
+#work-timeline {
+    right: 500px;
+    top: 1200px; /* Adjust the right position for the work timeline */
+}
+
+.date-label {
+    position: absolute;
+    top: calc(100% + -10px);
+    left: 50%; /* Center the label horizontally */
+    transform: translateX(-150%); /* Adjust to center horizontally */
+    font-size: 12px; /* Adjust font size */
+    color: #999; /* Adjust color */
+  }
+
+  .timeline-marker .timeline-icon {
+    width: 30px; /* Example size, adjust as needed */
+    height: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  /* Example color coding for different types of experiences */
+  .timeline-education .timeline-marker {
+    background-color: #4CAF50; /* Education color */
+  }
+  
+  .timeline-work .timeline-marker {
+    background-color: #2196F3; /* Work color */
+  }
+  
+  

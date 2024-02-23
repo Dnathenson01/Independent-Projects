@@ -14,11 +14,11 @@ body, html {
 
 /* Media Queries */
 @media (max-width: 768px) {
-    .profile-pic, .school-logo {
-        height: 100px;
-        width: 100px;
+    .timeline-marker .timeline-icon {
+      width: 20px; /* Smaller size for icons on mobile */
+      height: 20px;
     }
-
+    /* Other responsive adjustments */  
     .container {
         width: 95%; /* Allow more space on smaller screens */
     }
