@@ -1,0 +1,67 @@
+/* Header Styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    width: 100%;;
+}
+
+.branding {
+    text-align: center;
+    flex-grow: 1;
+}
+
+.branding h1, .branding h2 {
+    margin: 0;
+    padding-bottom: 0.5em;
+    font-size: 14px;
+}
+
+/* Profile and Logo Styles */
+.profile-pic, .school-logo {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 350px; /* Adjust this value to move the images down */
+}
+
+/* Reset some default styling */
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Prevent horizontal scroll */
+}
+
+.container {
+    display: flex;
+}
+
+/* Sidebar styling */
+.sidebar {
+    position: fixed; /* Fixed position so it doesn't move when scrolling */
+    top: 0;
+    left: 0;
+    height: 100vh; /* Full height of the viewport */
+    width: 65px; /* Adjust width as needed */
+    background-color: #333; /* Sidebar background color */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Evenly space icons */
+    align-items: center;
+}
+
+.sidebar-icon {
+    width: 40px; /* Adjust icon size */
+    height: 40px;
+    background-color: #403ec0; /* Icon background color */
+    margin: 145px 0; /* Adjust spacing between icons */
+}
+
+/* Content styling */
+.content {
+    width: 100%; /* Fill the remaining width */
+    padding-left: 60px; /* Adjust padding to accommodate the sidebar */
+}
