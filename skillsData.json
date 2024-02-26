@@ -1,0 +1,169 @@
+[
+    {
+      "context": "school",
+      "skills": [
+        {
+          "name": "HTML",
+          "startDate": "2023-10-01",
+          "endDate": null,
+          "color": "#e34c26"
+        },
+        {
+          "name": "CSS",
+          "startDate": "2023-10-01",
+          "endDate": null,
+          "color": "#2965f1"
+        },
+        {
+          "name": "JavaScript",
+          "startDate": "2023-10-01",
+          "endDate": null,
+          "color": "#f0db4f"
+        },
+        {
+          "name": "Python",
+          "startDate": "2023-05-01",
+          "endDate": null,
+          "color": "#3776ab"
+        },
+        {
+          "name": "Git",
+          "startDate": "2024-01-01",
+          "endDate": null,
+          "color": "#f34f29"
+        },
+        {
+          "name": "SQL",
+          "startDate": "2023-01-01",
+          "endDate": "2023-05-31",
+          "color": "#4479a1"
+        },
+        {
+          "name": "Microsoft Excel",
+          "startDate": "2023-08-01",
+          "endDate": "2023-12-31",
+          "color": "#217346"
+        },
+        {
+          "name": "Stata",
+          "startDate": "2023-01-01",
+          "endDate": "2023-05-31",
+          "color": "#1a5f7a"
+        },
+        {
+          "name": "C#",
+          "startDate": "2024-01-01",
+          "endDate": null,
+          "color": "#9b4993"
+        }
+      ]
+    },
+    {
+      "context": "work",
+      "skills": [
+        {
+          "name": "Microsoft Excel",
+          "startDate": "2020-10-01",
+          "endDate": "2022-01-31",
+          "color": "#217346"
+        },
+        {
+          "name": "SQL",
+          "startDate": "2020-10-01",
+          "endDate": "2022-01-31",
+          "color": "#4479a1"
+        },
+        {
+          "name": "Tableau",
+          "startDate": "2020-10-01",
+          "endDate": "2022-01-31",
+          "color": "#e97627"
+        },
+        {
+          "name": "PowerBI",
+          "startDate": "2020-10-01",
+          "endDate": "2022-01-31",
+          "color": "#f2c811"
+        },
+        {
+          "name": "Microsoft Office",
+          "startDate": "2020-10-01",
+          "endDate": "2022-01-31",
+          "color": "#d83b01"
+        },
+        {
+          "name": "Microsoft Excel",
+          "startDate": "2022-01-01",
+          "endDate": "2022-04-30",
+          "color": "#217346"
+        },
+        {
+          "name": "Microsoft Office",
+          "startDate": "2022-01-01",
+          "endDate": "2022-04-30",
+          "color": "#d83b01"
+        },
+        {
+          "name": "SAS",
+          "startDate": "2023-05-01",
+          "endDate": "2023-08-31",
+          "color": "#B76E79"
+        },
+        {
+          "name": "Microsoft Excel",
+          "startDate": "2023-05-01",
+          "endDate": "2023-08-31",
+          "color": "#217346"
+        },
+        {
+          "name": "SQL",
+          "startDate": "2023-05-01",
+          "endDate": "2023-08-31",
+          "color": "#4479a1"
+        },
+        {
+          "name": "Tableau",
+          "startDate": "2023-05-01",
+          "endDate": "2023-08-31",
+          "color": "#e97627"
+        },
+        {
+          "name": "Microsoft Office",
+          "startDate": "2023-05-01",
+          "endDate": "2023-08-31",
+          "color": "#d83b01"
+        },
+        {
+            "name": "Python",
+            "startDate": "2023-08-01",
+            "endDate": null,
+            "color": "#3776ab"
+          },
+          {
+            "name": "SQL",
+            "startDate": "2023-08-01",
+            "endDate": null,
+            "color": "#4479a1"
+          },
+          {
+            "name": "Git",
+            "startDate": "2023-08-01",
+            "endDate": null,
+            "color": "#f34f29"
+          },
+          {
+            "name": "Microsoft Office",
+            "startDate": "2023-08-01",
+            "endDate": null,
+            "color": "#d83b01"
+          },
+          {
+            "name": "Microsoft Excel",
+            "startDate": "2023-08-01",
+            "endDate": null,
+            "color": "#217346"
+          }
+        ]
+      }
+    ]
+    

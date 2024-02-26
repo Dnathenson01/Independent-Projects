@@ -42,7 +42,7 @@
 
 /* Skill Icon Positions */
 .skill-icon {
-    --angle: calc(var(--index) * 25.7deg);
+    --angle: calc(var(--index) * 28deg);
     top: calc(50% + var(--radius) * sin(var(--angle)) - 30px); /* Adjust the offset to center the icons */
     left: calc(50% + var(--radius) * cos(var(--angle)) - 30px); /* Adjust the offset to center the icons */
     transform: translate(-50%, -50%);
